@@ -10,10 +10,10 @@
     <artifactId>protobufel-parent</artifactId>
     <version>0.7</version>
     <packaging>pom</packaging>
-    <name>Parent Project of PROTOBUF-EL Repository</name>
+    <name>Protobufel Maven Parent Project</name>
     <description>Protobufel Maven Parent Project</description>
-    <url>https://github.com/protobufel/protobuf-el/</url>
-    <inceptionYear>2014</inceptionYear>
+    <url>https://github.com/protobufel/protobufel-maven-parent/</url>
+    <inceptionYear>2017</inceptionYear>
     <distributionManagement>
         <site>
             <id>gh-pages</id>
@@ -33,15 +33,15 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:protobufel/protobuf-el.git</connection>
-        <developerConnection>scm:git:git@github.com:protobufel/protobuf-el.git</developerConnection>
-        <!-- <url>git@github.com:protobufel/protobuf-el.git</url> -->
-        <url>https://github.com/protobufel/protobuf-el/</url>
+        <connection>scm:git:git@github.com:protobufel/protobufel-maven-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:protobufel/protobufel-maven-parent.git</developerConnection>
+        <!-- <url>git@github.com:protobufel/protobufel-maven-parent.git</url> -->
+        <url>https://github.com/protobufel/protobufel-maven-parent/</url>
         <tag>v0.7</tag>
     </scm>
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/protobufel/protobuf-el/issues/</url>
+        <url>https://github.com/protobufel/protobufel-maven-parent/issues/</url>
     </issueManagement>
     <developers>
         <developer>
@@ -533,7 +533,7 @@
                     <version>3.4</version>
                     <configuration>
                         <lineLength>100</lineLength>
-                        <topSiteURL>https://github.com/protobufel/protobuf-el/</topSiteURL>
+                        <topSiteURL>https://github.com/protobufel/protobufel-maven-parent/</topSiteURL>
                         <skipDeploy>true</skipDeploy>
                     </configuration>
                     <dependencies>
@@ -692,7 +692,7 @@
                         <!-- <path>${site.path}</path> -->
                         <path>${project.distributionManagement.site.url}</path>
                         <repositoryOwner>protobufel</repositoryOwner>
-                        <repositoryName>protobuf-el</repositoryName>
+                        <repositoryName>protobufel-maven-parent</repositoryName>
                         <merge>true</merge>
                         <!-- <excludes> <exclude>xref-test/**</exclude> <exclude>testapidocs/**</exclude>
                             </excludes> -->
